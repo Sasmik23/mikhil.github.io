@@ -1,0 +1,21 @@
+p {
+
+  font-size:200%;
+  text-align: center;
+}
+body{
+  background-image:url("https://i0.wp.com/ficedu.org/wp-content/uploads/2016/07/Savin-NY-Website-Background-Web.jpg");
+  margin: auto;
+  background-image: width: 300px;
+}
+h1{
+  text-align: center;
+}
+img{
+  float:right;
+  margin-right: 200px;
+  padding-left: 50px;
+}
+.clear {
+  clear:right;
+}

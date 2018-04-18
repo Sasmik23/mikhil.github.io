@@ -19,3 +19,9 @@ img{
 .clear {
   clear:right;
 }
+
+.buttonPosition{
+  float:right;
+  margin-top: 200px;
+  margin-left: 300px;
+}

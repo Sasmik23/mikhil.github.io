@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet" href="styles.css"/>
+
+<script>
+$(document).ready(function(){
+  $("#old").on({
+    $("#change").click(function(){
+        $("#old").attr("src","Scarlett.jpg");
+    });
+});
+});
+</script>
+
 </head>
 <body>
-  <script src="myScript.js"></script>
+
 
 <h1 style="color:rgb(175, 0, 0);"><u>Why I picked web development:</u></h1>
 <p><i> Cos i dun have a life </i></p>
 
 <h1 style="color:rgb(170,0,120);"><u>Favourite actress:</u></h1>
-<img id = "demo" src="https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzkxOTI1MjYy/scarlett-johansson-13671719-1-402.jpg" width="300" height="300">
+<img src="https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzkxOTI1MjYy/scarlett-johansson-13671719-1-402.jpg" id="old" width="300" height="300"/>
+
 <p style ="float:right"> Scarlett Johansson is a <br>fine specimen of the opposite gender</p>
-<button class="buttonPosition" type="button" onclick="myFunction()">Change Picture</button>
+<button id ="change">Change Picture</button>
 
 <h1 class = "clear" style="color:rgba(50,0,150,0.7);"><u><br>Websites I wish were blocked:</u></h1>
 <p class="clear"> I V Y </p>
